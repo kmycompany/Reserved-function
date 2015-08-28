@@ -1,0 +1,66 @@
+.\CompileOutput\selftest.o: ..\Application\src\SelfTest.c
+.\CompileOutput\selftest.o: ..\Application\inc\SelfTest.h
+.\CompileOutput\selftest.o: E:\coolbear\software installation\keil\ARM\RV31\INC\stdio.h
+.\CompileOutput\selftest.o: E:\coolbear\software installation\keil\ARM\RV31\INC\string.h
+.\CompileOutput\selftest.o: E:\coolbear\software installation\keil\ARM\RV31\INC\stdlib.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_KeyDrv.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_LEDDrv.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_BeepDrv.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_MagcardPADrv.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_USART1Drv.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_USART2Drv.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_USART3Drv.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_wifi.h
+.\CompileOutput\selftest.o: ..\CMSIS\stm32f10x.h
+.\CompileOutput\selftest.o: ..\CMSIS\core_cm3.h
+.\CompileOutput\selftest.o: E:\coolbear\software installation\keil\ARM\RV31\INC\stdint.h
+.\CompileOutput\selftest.o: ..\CMSIS\system_stm32f10x.h
+.\CompileOutput\selftest.o: ..\CMSIS\stm32f10x_conf.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+.\CompileOutput\selftest.o: ..\CMSIS\stm32f10x.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
+.\CompileOutput\selftest.o: ..\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_WiFi_SPI.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_PrinterDrv.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_FlashDrv.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_Time.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_psamDrv.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_Misc.h
+.\CompileOutput\selftest.o: E:\coolbear\software installation\keil\ARM\RV31\INC\time.h
+.\CompileOutput\selftest.o: ..\Application\inc\MenuOperate.h
+.\CompileOutput\selftest.o: ..\Application\inc\FoodOrder.h
+.\CompileOutput\selftest.o: ..\Application\inc\lcd.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_LCDDrv.h
+.\CompileOutput\selftest.o: ..\Application\inc\key.h
+.\CompileOutput\selftest.o: ..\Application\inc\main.h
+.\CompileOutput\selftest.o: ..\Application\inc\my_library.h
+.\CompileOutput\selftest.o: ..\Application\inc\global_extern_variable.h
+.\CompileOutput\selftest.o: ..\Application\inc\mypure_library.h
+.\CompileOutput\selftest.o: ..\Application\inc\EepromFileSystem.h
+.\CompileOutput\selftest.o: ..\Application\inc\ShuRuFa.h
+.\CompileOutput\selftest.o: ..\Application\inc\gprs.h
+.\CompileOutput\selftest.o: ..\Application\inc\sim900B.h
+.\CompileOutput\selftest.o: ..\Application\inc\message.h
+.\CompileOutput\selftest.o: ..\kmy_platform\inc\kmy_Adc.h
+.\CompileOutput\selftest.o: ..\Application\inc\setting.h
+.\CompileOutput\selftest.o: ..\Application\inc\FormInput.h

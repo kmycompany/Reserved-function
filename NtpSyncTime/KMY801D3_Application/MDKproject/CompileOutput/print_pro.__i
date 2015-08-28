@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Application -I..\CMSIS -I..\STM32F10x_StdPeriph_Driver\inc -I..\kmy_platform -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\CompileOutput\print_pro.o" --omf_browse ".\CompileOutput\print_pro.crf" --depend ".\CompileOutput\print_pro.d" "..\kmy_platform\print_pro.c"

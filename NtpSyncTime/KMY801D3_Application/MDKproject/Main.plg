@@ -1,0 +1,759 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\KMY8001D2 SDK 20130109\KMY801D2-Application 2013-01-09\MDKproject\Main.uvproj
+Project File Date:  01/09/2013
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling base64.c...
+compiling CallRecord.c...
+compiling Cursor.c...
+compiling des.c...
+compiling EepromFileSystem.c...
+compiling FileOperate.c...
+compiling FormInput.c...
+compiling gprs.c...
+compiling key.c...
+compiling lcd.c...
+compiling main.c...
+..\Application\main.c(693): warning:  #177-D: variable "logo" was declared but never referenced
+compiling MenuOperate.c...
+compiling message.c...
+..\Application\message.c(45): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+..\Application\message.c(47): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\message.c(58): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\message.c(72): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(74): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(75): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(75): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(79): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(79): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(81): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(101): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(101): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(104): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(109): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(109): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(116): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(116): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(119): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(119): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(172): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(173): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+..\Application\message.c(174): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(174): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\message.c(175): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(199): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(200): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+..\Application\message.c(202): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(202): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\message.c(203): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(267): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(268): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+..\Application\message.c(269): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(269): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\message.c(270): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(288): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(289): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+..\Application\message.c(290): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(290): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\message.c(291): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(344): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(345): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+..\Application\message.c(346): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(346): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\message.c(347): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(355): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(355): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(357): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(357): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(361): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(361): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(461): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(463): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const unsigned char *"
+..\Application\message.c(470): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "unsigned char *"
+..\Application\message.c(471): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const unsigned char *"
+..\Application\message.c(474): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "unsigned char *"
+..\Application\message.c(475): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const unsigned char *"
+..\Application\message.c(481): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(482): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const unsigned char *"
+..\Application\message.c(951): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\message.c(1327): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(1327): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\Application\message.c(1336): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(1402): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(1405): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(1412): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(1414): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(1415): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(1415): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\message.c(1416): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\message.c(1425): warning:  #223-D: function "PinSet" declared implicitly
+..\Application\message.c(1432): warning:  #111-D: statement is unreachable
+..\Application\message.c(1436): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\message.c(1451): warning:  #177-D: variable "cnt" was declared but never referenced
+..\Application\message.c(1452): warning:  #177-D: variable "buff" was declared but never referenced
+compiling my_library.c...
+compiling my_menuop.c...
+compiling mypure_library.c...
+compiling PhoneBook.c...
+compiling RF.c...
+compiling SelfTest.c...
+..\Application\SelfTest.c(61): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\Application\SelfTest.c(2674): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2685): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+..\Application\SelfTest.c(2697): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2704): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\SelfTest.c(2709): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\SelfTest.c(2712): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2721): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2729): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\SelfTest.c(2734): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\SelfTest.c(2737): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2746): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2755): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\SelfTest.c(2764): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\SelfTest.c(2767): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2786): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2801): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2808): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\SelfTest.c(2813): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\SelfTest.c(2816): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2825): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2833): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\SelfTest.c(2838): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\SelfTest.c(2841): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2850): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2859): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\SelfTest.c(2868): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\SelfTest.c(2871): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2775): warning:  #177-D: variable "buf" was declared but never referenced
+..\Application\SelfTest.c(2890): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2905): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2912): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\SelfTest.c(2917): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\SelfTest.c(2920): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2929): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2937): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\SelfTest.c(2942): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\SelfTest.c(2945): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2954): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2963): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\Application\SelfTest.c(2972): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\Application\SelfTest.c(2975): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\Application\SelfTest.c(2879): warning:  #177-D: variable "buf" was declared but never referenced
+..\Application\SelfTest.c(3237): warning:  #223-D: function "kmy_MiscGetRandomNumber" declared implicitly
+compiling setting.c...
+compiling ShuRuFa.c...
+compiling sim900B.c...
+compiling Tool.c...
+compiling Transaction.c...
+compiling ucs2_to_GB2312.c...
+compiling core_cm3.c...
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+assembling STM32F10x.s...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+linking...
+Program Size: Code=106868 RO-data=50572 RW-data=3780 ZI-data=6212  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o Output\Main.bin CompileOutput\Main.axf
+".\CompileOutput\Main.axf" - 0 Error(s), 122 Warning(s).
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.196V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+No Algorithm found for: 08008000H - 0800FFFFH
+No Algorithm found for: 08010000H - 0801FFFFH
+No Algorithm found for: 08020000H - 0802F06FH
+Erase skipped!
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.177V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 500 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+No Algorithm found for: 08008000H - 0800FFFFH
+No Algorithm found for: 08010000H - 0801FFFFH
+No Algorithm found for: 08020000H - 0802F06FH
+Erase skipped!
+Build target 'Target 1'
+linking...
+Program Size: Code=106868 RO-data=50572 RW-data=3780 ZI-data=6212  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o Output\Main.bin CompileOutput\Main.axf
+".\CompileOutput\Main.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.177V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 500 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+No Algorithm found for: 08008000H - 0800FFFFH
+No Algorithm found for: 08010000H - 0801FFFFH
+No Algorithm found for: 08020000H - 0802F06FH
+Erase skipped!
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.177V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 500 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+No Algorithm found for: 08008000H - 0800FFFFH
+No Algorithm found for: 08010000H - 0801FFFFH
+No Algorithm found for: 08020000H - 0802F06FH
+Erase skipped!
+Build target 'Target 1'
+linking...
+Program Size: Code=106868 RO-data=50572 RW-data=3780 ZI-data=6212  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o Output\Main.bin CompileOutput\Main.axf
+".\CompileOutput\Main.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.170V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 500 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+No Algorithm found for: 08008000H - 0800FFFFH
+No Algorithm found for: 08010000H - 0801FFFFH
+No Algorithm found for: 08020000H - 0802F06FH
+Erase skipped!
+Build target 'Target 1'
+linking...
+Program Size: Code=106868 RO-data=50572 RW-data=3780 ZI-data=6212  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o Output\Main.bin CompileOutput\Main.axf
+".\CompileOutput\Main.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.196V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 3000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+No Algorithm found for: 08008000H - 0800FFFFH
+No Algorithm found for: 08010000H - 0801FFFFH
+No Algorithm found for: 08020000H - 0802F06FH
+Erase skipped!
+Build target 'Target 1'
+linking...
+Program Size: Code=106868 RO-data=50572 RW-data=3780 ZI-data=6212  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o Output\Main.bin CompileOutput\Main.axf
+".\CompileOutput\Main.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.202V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 3000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+No Algorithm found for: 08008000H - 0800FFFFH
+No Algorithm found for: 08010000H - 0801FFFFH
+No Algorithm found for: 08020000H - 0802F06FH
+Erase skipped!
+Build target 'Target 1'
+assembling STM32F10x.s...
+linking...
+Program Size: Code=106868 RO-data=50572 RW-data=3780 ZI-data=6212  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o Output\Main.bin CompileOutput\Main.axf
+".\CompileOutput\Main.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.196V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 3000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+No Algorithm found for: 08008000H - 0800FFFFH
+No Algorithm found for: 08010000H - 0801FFFFH
+No Algorithm found for: 08020000H - 0802F06FH
+Erase skipped!
+Build target 'Target 1'
+assembling STM32F10x.s...
+linking...
+Program Size: Code=106868 RO-data=50572 RW-data=3780 ZI-data=6212  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o Output\Main.bin CompileOutput\Main.axf
+".\CompileOutput\Main.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=106868 RO-data=50572 RW-data=3780 ZI-data=6212  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o Output\Main.bin CompileOutput\Main.axf
+".\CompileOutput\Main.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.202V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 3000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=106868 RO-data=50572 RW-data=3780 ZI-data=6212  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o Output\Main.bin CompileOutput\Main.axf
+".\CompileOutput\Main.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.177V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 500 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.170V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 500 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=106868 RO-data=50572 RW-data=3780 ZI-data=6212  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o Output\Main.bin CompileOutput\Main.axf
+".\CompileOutput\Main.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\KMY8001D2 SDK 20130109\\KMY801D2-Application 2013-01-09\\MDKproject\\CompileOutput\\Main.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F101VC
+VTarget = 3.202V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 3000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.

@@ -1,0 +1,9 @@
+.\CompileOutput\qdt_message.o: ..\Application\qdt_message.c
+.\CompileOutput\qdt_message.o: ..\Application\qdt_message.h
+.\CompileOutput\qdt_message.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\CompileOutput\qdt_message.o: C:\Keil\ARM\RV31\INC\string.h
+.\CompileOutput\qdt_message.o: C:\Keil\ARM\RV31\INC\stdlib.h
+.\CompileOutput\qdt_message.o: ..\Application\setting.h
+.\CompileOutput\qdt_message.o: ..\Application\my_stdint.h
+.\CompileOutput\qdt_message.o: ..\Application\Tool.h
+.\CompileOutput\qdt_message.o: ..\Application\BsitDes.h

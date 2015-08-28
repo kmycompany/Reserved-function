@@ -1,0 +1,7 @@
+---- WiFi_Send Matches (6 in 4 files) ----
+FoodOrder.c (application\src):   		WiFi_Send((unsigned char*)buff,strlen((char *)buff));
+FoodOrder.c (application\src):    	WiFi_Send((unsigned char*)buff,strlen((char *)buff));
+Ntp.c (application\src):unsigned char NtpWiFi_Send(unsigned char *buff,unsigned int len,unsigned char *Dest_addr)
+Ntp.c (application\src):	if(NtpWiFi_Send((unsigned char *)H_SNTP,sizeof(STNP_Header),NTP_SERVER_NAME)==TCP_SendOK)
+Wifi.c (application\src):unsigned char WiFi_Send(unsigned char *buff,unsigned int len)
+Wifi.h (application\inc):unsigned char WiFi_Send(unsigned char *buff,unsigned int len);
